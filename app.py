@@ -1,8 +1,8 @@
 from flask import Flask, render_template, redirect, request, flash
 from flask_mail import Mail, Message
-from doteven import load_dotenv
+from dotenv import load_dotenv
 import os
-load_doteven()
+load_dotenv()
 
 app = Flask (__name__)
 app = Flask(__name__)
